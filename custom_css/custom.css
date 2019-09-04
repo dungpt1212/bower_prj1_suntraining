@@ -6,7 +6,12 @@
   top: 0px;
   overflow-y: scroll;
 }
-h3{
+
+.container.top{
+  margin-top: 100px;
+}
+
+h3.border_bottom{
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
@@ -28,6 +33,12 @@ h3{
 .right p{
   margin-top: 2%;
 }
+
+.above{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
 .above img{
   width: 170px;
   height: 270px;
@@ -69,4 +80,16 @@ h3{
 }
 .copyright__wrapper p{
   transform: translateX(300px);
+}
+
+.under textarea{
+   width: 100%; height: 70px;
+}
+.gmail_comment{
+  font-size: 12px;
+}
+
+.reply textarea{
+  width: 100%;
+  height: 30px;
 }
